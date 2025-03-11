@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "DataExplorerPlus93.CompositionApi.Server.Plugin": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Program Files\\One Identity\\One Identity Manager\\ImxClient.exe",
+      "commandLineArgs": "run-apiserver -B /plugin DataExplorerPlus93.CompositionApi.Server.Plugin.dll /conndialog fallback"
+    }
+  }
+}
