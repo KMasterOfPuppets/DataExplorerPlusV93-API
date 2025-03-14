@@ -134,3 +134,4 @@ C:\Users\OneIM\source\repos\DataExplorerPlus93.CompositionApi.Server.Plugin\bin\
 C:\Users\OneIM\source\repos\DataExplorerPlus93.CompositionApi.Server.Plugin\bin\Debug\net8.0\de\System.Web.Services.Description.resources.dll
 C:\Users\OneIM\source\repos\DataExplorerPlus93.CompositionApi.Server.Plugin\bin\Debug\net8.0\de\Microsoft.Data.SqlClient.resources.dll
 C:\Users\OneIM\source\repos\DataExplorerPlus93.CompositionApi.Server.Plugin\bin\Debug\net8.0\System.Private.Windows.Core.dll
+C:\Users\OneIM\source\repos\DataExplorerPlus93.CompositionApi.Server.Plugin\obj\Debug\net8.0\DataExplorerPlus93.CompositionApi.Server.Plugin.sourcelink.json

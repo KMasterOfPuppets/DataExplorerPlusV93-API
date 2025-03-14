@@ -11,9 +11,9 @@ namespace QBM.CompositionApi
             builder.AddMethod(Method.Define("dataexplorerplus/recommendations")
                 .Handle<PostedID, List<Dictionary<string, object>>>("POST", async (posted, qr, ct) =>
                 {
-                    string CCC_RecKey1 = null;
-                    string CCC_RecKey2 = null;
-                    string CCC_RecKey3 = null;
+                    var CCC_RecKey1 = "";
+                    var CCC_RecKey2 = "";
+                    var CCC_RecKey3 = "";
                     List<Dictionary<string, object>> recItems = new List<Dictionary<string, object>>();
 
                     foreach (var column in posted.columns)
