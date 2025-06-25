@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\OneIM\\.nuget\\packages\\": {}
+    "C:\\Users\\oneIM\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\OneIM\\source\\repos\\DataExplorerPlus93.CompositionApi.Server.Plugin\\DataExplorerPlus93.CompositionApi.Server.Plugin.csproj",
+      "projectUniqueName": "C:\\Users\\oneIM\\source\\repos\\DECore93\\DataExplorerPlusV93-API\\DataExplorerPlus93.CompositionApi.Server.Plugin.csproj",
       "projectName": "DataExplorerPlus93.CompositionApi.Server.Plugin",
-      "projectPath": "C:\\Users\\OneIM\\source\\repos\\DataExplorerPlus93.CompositionApi.Server.Plugin\\DataExplorerPlus93.CompositionApi.Server.Plugin.csproj",
-      "packagesPath": "C:\\Users\\OneIM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\OneIM\\source\\repos\\DataExplorerPlus93.CompositionApi.Server.Plugin\\obj\\",
+      "projectPath": "C:\\Users\\oneIM\\source\\repos\\DECore93\\DataExplorerPlusV93-API\\DataExplorerPlus93.CompositionApi.Server.Plugin.csproj",
+      "packagesPath": "C:\\Users\\oneIM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\oneIM\\source\\repos\\DECore93\\DataExplorerPlusV93-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\OneIM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\oneIM\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -66,7 +66,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

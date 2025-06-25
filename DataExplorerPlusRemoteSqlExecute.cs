@@ -2,7 +2,8 @@
 using VI.DB;
 using VI.DB.Entities;
 using QBM.CompositionApi.Definition;
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
+using System.Configuration;
 
 namespace QBM.CompositionApi
 {
@@ -14,7 +15,12 @@ namespace QBM.CompositionApi
                   .Handle<PostedSQL, List<List<ColumnData>>>("POST", async (posted, qr, ct) =>
                   {
                       var strUID_Person = qr.Session.User().Uid;
-                      string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings[posted.connString].ConnectionString;
+                      var exeFolder = AppContext.BaseDirectory;
+                      var webConfigPath = Path.Combine(exeFolder, "..", "web.config");
+                      var map = new ExeConfigurationFileMap { ExeConfigFilename = webConfigPath };
+                      var cfg = ConfigurationManager.OpenMappedExeConfiguration(map, ConfigurationUserLevel.None);
+                      var connectionString = cfg.ConnectionStrings.ConnectionStrings[posted.connString].ConnectionString;              
+
                       string query = "";
                       var queryOI = Query.From("QBMLimitedSQL").Select("SQLContent").Where(string.Format("Ident_QBMLimitedSQL = '{0}'", posted.IdentQBMLimitedSQL));
 
