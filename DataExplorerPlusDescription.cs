@@ -20,11 +20,22 @@ namespace QBM.CompositionApi
                             var query1 = Query.From("DialogRichMailBody").Select("RichMailBody").Where(String.Format(@"UID_DialogCulture in (select UID_DialogCulture from QBMCulture where Ident_DialogCulture = '{0}')
                                                                                                                        and UID_DialogRichMail in (select UID_DialogRichMail from DialogRichMail 
                                                                                                                        where Ident_DialogRichMail = '{1}')", posted.culture, posted.description));
+                            
+                            var queryD = Query.From("DialogRichMailBody").Select("RichMailBody").Where(String.Format(@"UID_DialogCulture in (select UID_DialogCultureDefault from QBMCulture where Ident_DialogCulture = '{0}')
+                                                                                                                       and UID_DialogRichMail in (select UID_DialogRichMail from DialogRichMail 
+                                                                                                                       where Ident_DialogRichMail = '{1}')", posted.culture, posted.description));
+
+                            var tryGetD = await qr.Session.Source().TryGetAsync(queryD, EntityLoadType.DelayedLogic).ConfigureAwait(false);
 
                             var tryGetText = await qr.Session.Source().TryGetAsync(query1, EntityLoadType.DelayedLogic).ConfigureAwait(false);
+
                             if (tryGetText.Success)
                             {
                                 htmlBanner = await tryGetText.Result.GetValueAsync<string>("RichMailBody", ct).ConfigureAwait(false);
+                            }
+                            else if (tryGetD.Success)
+                            {
+                                htmlBanner = await tryGetD.Result.GetValueAsync<string>("RichMailBody", ct).ConfigureAwait(false);
                             }
                             else
                             {
