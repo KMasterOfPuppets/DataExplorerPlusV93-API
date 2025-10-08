@@ -161,9 +161,9 @@ C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\Mi
 C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\Microsoft.Extensions.Hosting.Abstractions.dll
 C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\Microsoft.Net.Http.Headers.dll
 C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
-C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\Microsoft.AspNetCore.SystemWebAdapters.dll
 C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
 C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\Microsoft.AspNetCore.SystemWebAdapters.dll
 C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\VI.Reporting.dll
 C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\NSwag.Core.dll
 C:\Users\oneIM\source\repos\DECore93\DataExplorerPlusV93-API\bin\Debug\net8.0\CompositionApiToSwagger.Settings.dll

@@ -20,7 +20,7 @@ namespace QBM.CompositionApi
                                                                 from AttestationCase ac                                                           
                                                                 join AttestationPolicy ap on ap.UID_AttestationPolicy = ac.UID_AttestationPolicy
                                                                 Join DialogConfigParm dp on dp.Value = ap.UID_AttestationPolicy
-                                                                join AttestationHelper ah on ah.UID_AttestationCase = ac.UID_AttestationCase
+                                                                join ATT_VAttestationDecisionPerson ah on ah.UID_AttestationCase = ac.UID_AttestationCase
                                                                 where 2 = 2
                                                                 and dp.FullPath like 'Custom\DataExplorerAttestations\%'
                                                                 and dp.Enabled = 1
