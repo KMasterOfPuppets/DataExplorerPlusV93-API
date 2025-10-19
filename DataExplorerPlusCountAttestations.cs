@@ -12,8 +12,8 @@ namespace QBM.CompositionApi
             builder.AddMethod(Method.Define("dataexplorerplus/countattestations")
                 .HandleGet(async (qr, ct) =>
                 {
-                    int counter = await qr.Session.Source().GetCountAsync(Query.From("AttestationHelper")
-                        .Where(String.Format(@"UID_PersonHead IN (select ac.UID_PersonHead from ATT_VAttestationDecisionPerson ac                                                           
+                    int counter = await qr.Session.Source().GetCountAsync(Query.From("AttestationCase")
+                        .Where(String.Format(@"UID_AttestationCase IN (select distinct ac.UID_AttestationCase from ATT_VAttestationDecisionPerson ac                                                           
                                                                 join AttestationPolicy ap on ap.UID_AttestationPolicy = ac.UID_AttestationPolicy
                                                                 Join DialogConfigParm dp on dp.Value = ap.UID_AttestationPolicy
                                                                 where ac.RulerLevel = 0 and dp.FullPath like 'Custom\DataExplorerAttestations\%'

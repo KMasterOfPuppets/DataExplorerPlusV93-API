@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\oneIM\\source\\repos\\DECore93\\DataExplorerPlusV93-API\\DataExplorerPlus93.CompositionApi.Server.Plugin.csproj",
+      "projectUniqueName": "C:\\Users\\oneIM\\Desktop\\New folder\\DataExplorerPlusV93-API\\DataExplorerPlus93.CompositionApi.Server.Plugin.csproj",
       "projectName": "DataExplorerPlus93.CompositionApi.Server.Plugin",
-      "projectPath": "C:\\Users\\oneIM\\source\\repos\\DECore93\\DataExplorerPlusV93-API\\DataExplorerPlus93.CompositionApi.Server.Plugin.csproj",
+      "projectPath": "C:\\Users\\oneIM\\Desktop\\New folder\\DataExplorerPlusV93-API\\DataExplorerPlus93.CompositionApi.Server.Plugin.csproj",
       "packagesPath": "C:\\Users\\oneIM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\oneIM\\source\\repos\\DECore93\\DataExplorerPlusV93-API\\obj\\",
+      "outputPath": "C:\\Users\\oneIM\\Desktop\\New folder\\DataExplorerPlusV93-API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\oneIM\\AppData\\Roaming\\NuGet\\NuGet.Config",
