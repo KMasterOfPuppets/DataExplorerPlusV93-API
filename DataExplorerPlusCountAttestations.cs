@@ -22,7 +22,7 @@ namespace QBM.CompositionApi
                                                                 Join DialogConfigParm dp on dp.Value = ap.UID_AttestationPolicy
                                                                 join ATT_VAttestationDecisionPerson ah on ah.UID_AttestationCase = ac.UID_AttestationCase
                                                                 where 2 = 2
-                                                                and ah.RulerLevel <> 2
+                                                                and ah.RulerLevel = 0
                                                                 and dp.FullPath like 'Custom\DataExplorerAttestations\%'
                                                                 and dp.Enabled = 1
                                                                 and ah.UID_PersonHead = '{0}')", strUID_Person));

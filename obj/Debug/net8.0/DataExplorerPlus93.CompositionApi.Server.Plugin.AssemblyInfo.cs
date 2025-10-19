@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataExplorerPlus93.CompositionApi.Server.Plugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+861450582f53315a3b4a5c5747b6cc0326d5e16a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb8f32e16986672e7f753a8cbbfc0168867c591e")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataExplorerPlus93.CompositionApi.Server.Plugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataExplorerPlus93.CompositionApi.Server.Plugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
